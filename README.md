@@ -23,7 +23,7 @@ sudo apt install -y build-essential linux-headers-$(uname -r)
 ---
 
 ### Build
-cd boilerplate  
+cd clean-runtime  
 make
 
 ---

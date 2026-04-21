@@ -114,7 +114,7 @@ CLI commands issued by the user are communicated to the supervisor via a UNIX do
 ### 5. Soft-limit warning
 Kernel logs retrieved using `dmesg` show system-level events. The runtime is designed to generate soft-limit warnings here when memory usage exceeds defined thresholds.
 
-![Soft Limit](screenshots/dmesg1.png)
+![Soft Limit](screenshots/kernel.png)
 
 ---
 
@@ -143,8 +143,8 @@ Containers are stopped cleanly, and system process listings confirm that no zomb
 
 Commands used:
 
-nice -n 10 ./cpu_hog  
-nice -n -5 ./cpu_hog  
+time nice -n 10 ./cpu_hog  
+sudo time nice -n -5 ./cpu_hog  
 
 Observation:
 - Lower nice value → higher CPU priority → faster execution  

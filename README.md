@@ -6,11 +6,11 @@ A lightweight Linux container runtime implemented in C with a long-running super
 
 ## Team Information
 
-- Name1: RACHANA K
-- SRN1: PES1UG24CS354
+- Name1: PUNITH NIKHIL G V
+- SRN1: PES1UG24CS601
 
-- Name2: INCHARA K KUPPAL
-- SRN2: PES1UG25CS818
+- Name2: PRAKASH N HEROOR
+- SRN2: PES1UG25CS595
 
 ---
 
